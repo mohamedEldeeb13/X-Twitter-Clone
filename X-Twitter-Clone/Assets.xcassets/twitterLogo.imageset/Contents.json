@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "1692007265x-twitter-logo-png.png",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "Logo_X_Corp_\"Twitter\".svg.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
