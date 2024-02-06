@@ -152,8 +152,8 @@ class TweetTableViewCell: UITableViewCell {
     private func ConfigurationButtom() {
         replayButton.addTarget(self, action: #selector(didTapReplay), for: .touchUpInside)
         retweetButton.addTarget(self, action: #selector(didTapRetweet), for: .touchUpInside)
-        retweetButton.addTarget(self, action: #selector(didTapLike(_:)), for: .touchUpInside)
-        retweetButton.addTarget(self, action: #selector(didTapShare), for: .touchUpInside)
+        likeButton.addTarget(self, action: #selector(didTapLike(_:)), for: .touchUpInside)
+        shareButton.addTarget(self, action: #selector(didTapShare), for: .touchUpInside)
     }
     
     private func ConfigrationConstraint(){
